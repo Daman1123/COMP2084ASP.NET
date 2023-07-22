@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EMoQkq86i1gKRwZl+LQ8XRvyUoeu7YN4pm/2ufsKgu/Sm5TgDCL6zOVGYbkLaEMpnfURFolbiiSPZMFlNsmgiQ==",
+  "dgSpecHash": "75/Se84OLhZhbuQYseKIluOdc2FfqV1/QjffWNnM6DkFAvOqzzEfsjk+FJTHyqAX0qI/U5Esk1dRI6VspX1p0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\OneDrive\\Desktop\\ASP.NET\\COMP2084ASP.NET\\LabWebApp\\LabWebApp\\LabWebApp.csproj",
   "expectedPackageFiles": [
@@ -92,6 +92,7 @@
     "C:\\Users\\user\\.nuget\\packages\\nuget.projectmodel\\6.3.1\\nuget.projectmodel.6.3.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\nuget.protocol\\6.3.1\\nuget.protocol.6.3.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\nuget.versioning\\6.3.1\\nuget.versioning.6.3.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\octokit\\7.0.1\\octokit.7.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

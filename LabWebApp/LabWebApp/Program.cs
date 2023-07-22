@@ -2,6 +2,7 @@ using LabWebApp.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +18,30 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+builder.Services.AddAuthentication()
+    .AddGitHub(o =>
+    {
+        o.ClientId = builder.Configuration["Authentication:GitHubaeb5dc480e80b218afbb:"];
+        o.ClientSecret = builder.Configuration["Authentication:GitHub:ae258ecfa6d5ea94dff508547c3021f74174b85a"];
+        o.CallbackPath = "/signin-github";
+
+        // Grants access to read a user's profile data.
+        // https://docs.github.com/en/developers/apps/building-oauth-apps/scopes-for-oauth-apps
+        o.Scope.Add("read:user");
+
+        // Optional
+        // if you need an access token to call GitHub APIs
+        o.Events.OnCreatingTicket += context =>
+        {
+            if (context.AccessToken is { })
+            {
+                context.Identity?.AddClaim(new Claim("access_token", context.AccessToken));
+            }
+
+            return Task.CompletedTask;
+        };
+    });
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
