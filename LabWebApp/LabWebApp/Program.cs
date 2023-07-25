@@ -25,7 +25,7 @@ builder.Services.AddAuthentication()
     .AddGitHub(o =>
     {
         o.ClientId = builder.Configuration["Authentication:GitHub:aeb5dc480e80b218afbb"];
-        o.ClientSecret = builder.Configuration["Authentication:GitHub:ae258ecfa6d5ea94dff508547c3021f74174b85a"];
+        o.ClientSecret = builder.Configuration["Authentication:GitHub:d9d71fb3382889ec6ae533095ee91db06032bb9a"];
         o.CallbackPath = "/signin-github";
 
         // Grants access to read a user's profile data.
