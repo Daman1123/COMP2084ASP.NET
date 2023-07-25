@@ -283,3 +283,5 @@ C:\Users\user\OneDrive\Desktop\ASP.NET\COMP2084ASP.NET\LabWebApp\LabWebApp\obj\D
 C:\Users\user\OneDrive\Desktop\ASP.NET\COMP2084ASP.NET\LabWebApp\LabWebApp\obj\Debug\net7.0\LabWebApp.pdb
 C:\Users\user\OneDrive\Desktop\ASP.NET\COMP2084ASP.NET\LabWebApp\LabWebApp\obj\Debug\net7.0\LabWebApp.genruntimeconfig.cache
 C:\Users\user\OneDrive\Desktop\ASP.NET\COMP2084ASP.NET\LabWebApp\LabWebApp\obj\Debug\net7.0\ref\LabWebApp.dll
+C:\Users\user\OneDrive\Desktop\ASP.NET\COMP2084ASP.NET\LabWebApp\LabWebApp\bin\Debug\net7.0\AspNet.Security.OAuth.GitHub.dll
+C:\Users\user\OneDrive\Desktop\ASP.NET\COMP2084ASP.NET\LabWebApp\LabWebApp\bin\Debug\net7.0\Octokit.dll

@@ -8,15 +8,25 @@
     ".NETCoreApp,Version=v7.0": {
       "LabWebApp/1.0.0": {
         "dependencies": {
+          "AspNet.Security.OAuth.GitHub": "5.0.8",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "7.0.5",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.5",
           "Microsoft.AspNetCore.Identity.UI": "7.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.5",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.6"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.6",
+          "Octokit": "7.0.1"
         },
         "runtime": {
           "LabWebApp.dll": {}
+        }
+      },
+      "AspNet.Security.OAuth.GitHub/5.0.8": {
+        "runtime": {
+          "lib/net5.0/AspNet.Security.OAuth.GitHub.dll": {
+            "assemblyVersion": "5.0.8.0",
+            "fileVersion": "5.0.821.35461"
+          }
         }
       },
       "Azure.Core/1.24.0": {
@@ -1551,6 +1561,14 @@
           }
         }
       },
+      "Octokit/7.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Octokit.dll": {
+            "assemblyVersion": "7.0.1.0",
+            "fileVersion": "7.0.1.0"
+          }
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -2385,6 +2403,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AspNet.Security.OAuth.GitHub/5.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0fNKKB11ZiD8AOwG5lloA2RZkGlG0vJ2sGaCh1BkBlFTbfZQTA2IHJ5j3u2tyzhq/iYOuh+ltpJoXofh1JnAAg==",
+      "path": "aspnet.security.oauth.github/5.0.8",
+      "hashPath": "aspnet.security.oauth.github.5.0.8.nupkg.sha512"
+    },
     "Azure.Core/1.24.0": {
       "type": "package",
       "serviceable": true,
@@ -3000,6 +3025,13 @@
       "sha512": "sha512-T/igBDLXCd+pH3YTWgGVNvYSOwbwaT30NyyM9ONjvlHlmaUjKBJpr9kH0AeL+Ado4EJsBhU3qxXVc6lyrpRcMw==",
       "path": "nuget.versioning/6.3.1",
       "hashPath": "nuget.versioning.6.3.1.nupkg.sha512"
+    },
+    "Octokit/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LS0xXFj94I1RL/m54ris9Yp5A8qCoJ2WyLOggSld6z9qH6B2JKoEwdizzqIRPPBQQ2Y2HvRXNYo8ZSPcx6emEA==",
+      "path": "octokit/7.0.1",
+      "hashPath": "octokit.7.0.1.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

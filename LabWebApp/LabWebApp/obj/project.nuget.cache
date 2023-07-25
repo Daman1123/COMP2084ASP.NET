@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "75/Se84OLhZhbuQYseKIluOdc2FfqV1/QjffWNnM6DkFAvOqzzEfsjk+FJTHyqAX0qI/U5Esk1dRI6VspX1p0A==",
+  "dgSpecHash": "Ua54bmMfqwguS1awgtzeNp8rvf/EotPOs5pPNE7qr/GmwkpbWPCcxpDE7p0KfIjz8yh2Oe53AsUvAd2VnCCGHg==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\OneDrive\\Desktop\\ASP.NET\\COMP2084ASP.NET\\LabWebApp\\LabWebApp\\LabWebApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\aspnet.security.oauth.github\\5.0.8\\aspnet.security.oauth.github.5.0.8.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

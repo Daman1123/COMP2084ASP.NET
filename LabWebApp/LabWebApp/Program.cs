@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication;
+using NuGet.Packaging;
+using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,7 +24,7 @@ var app = builder.Build();
 builder.Services.AddAuthentication()
     .AddGitHub(o =>
     {
-        o.ClientId = builder.Configuration["Authentication:GitHubaeb5dc480e80b218afbb:"];
+        o.ClientId = builder.Configuration["Authentication:GitHub:aeb5dc480e80b218afbb"];
         o.ClientSecret = builder.Configuration["Authentication:GitHub:ae258ecfa6d5ea94dff508547c3021f74174b85a"];
         o.CallbackPath = "/signin-github";
 
