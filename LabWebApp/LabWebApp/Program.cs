@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authentication;
 using NuGet.Packaging;
 using System.Security.Claims;
 
-var builder = WebApplication.CreateBuilder(args);
+ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
@@ -24,8 +24,8 @@ var app = builder.Build();
 builder.Services.AddAuthentication()
     .AddGitHub(o =>
     {
-        o.ClientId = builder.Configuration["Authentication:GitHub:aeb5dc480e80b218afbb"];
-        o.ClientSecret = builder.Configuration["Authentication:GitHub:d9d71fb3382889ec6ae533095ee91db06032bb9a"];
+        o.ClientId = builder.Configuration["Authentication:GitHub:ClientId"];
+        o.ClientSecret = builder.Configuration["Authentication:GitHub:ClientSecret"];
         o.CallbackPath = "/signin-github";
 
         // Grants access to read a user's profile data.
